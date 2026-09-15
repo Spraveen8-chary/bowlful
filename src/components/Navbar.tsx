@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ShoppingBag, Search, User, Menu, X, ArrowRight, MessageCircle } from 'lucide-react';
+import { ShoppingBag, Search, User, Menu, X, MessageCircle } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { getWhatsAppGeneralUrl } from '../utils/whatsapp';
 

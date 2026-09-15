@@ -13,7 +13,6 @@ export const CartDrawer: React.FC = () => {
     subtotal,
     deliveryFee,
     total,
-    setIsCheckoutOpen,
   } = useCart();
 
   if (!isCartOpen) return null;
